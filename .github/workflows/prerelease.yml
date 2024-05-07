@@ -22,7 +22,7 @@ jobs:
       with:
         app_id: ${{ secrets.GH_APP_ID }}
         private_key: ${{ secrets.GH_APP_KEY }}
-        repository: "lustyflix/secrets"
+        repository: "lustyflix/Streamverse"
     - uses: actions/checkout@v4
     - name: Set up JDK 17
       uses: actions/setup-java@v4
