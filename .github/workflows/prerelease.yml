@@ -1,4 +1,4 @@
-name: Pre-releases
+name: Pre-release
 
 on:
   push:
