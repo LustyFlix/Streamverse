@@ -14,8 +14,8 @@
     <string name="new_update_format" formatted="true">새로운 업데이트!
 \n%1$s -&gt; %2$s</string>
     <string name="duration_format" formatted="true">%d분</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">CloudStream에서 재생</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Streamverse에서 재생</string>
     <string name="title_home">홈</string>
     <string name="title_downloads">다운로드</string>
     <string name="title_settings">설정</string>
@@ -303,7 +303,7 @@
     <string name="delete_repository">저장소 삭제</string>
     <string name="setup_extensions_subtext">사용하려는 사이트 목록 다운로드</string>
     <string name="plugins_downloaded" formatted="true">다운로드됨: %d</string>
-    <string name="blank_repo_message">CloudStream에는 기본적으로 설치된 사이트가 없습니다. 저장소에서 사이트를 설치해야 합니다.
+    <string name="blank_repo_message">Streamverse에는 기본적으로 설치된 사이트가 없습니다. 저장소에서 사이트를 설치해야 합니다.
 \n
 \nSky UK Limited의 무분별한 DMCA 조치로 인해 🤮 앱에서 저장소 사이트를 연결할 수 없습니다.
 \n

@@ -64,19 +64,19 @@
         <Preference
                 android:title="@string/github"
                 android:icon="@drawable/ic_github_logo"
-                app:summary="https://github.com/recloudstream/cloudstream">
+                app:summary="https://github.com/lustyflix/streamverse">
             <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/recloudstream/cloudstream" />
+                    android:data="https://github.com/lustyflix/streamverse" />
         </Preference>
 
         <Preference
                 android:title="@string/lightnovel"
                 android:icon="@drawable/quick_novel_icon"
-                app:summary="https://github.com/LagradOst/QuickNovel">
+                app:summary="https://github.com/LustyFlix/QuickNovel">
             <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/LagradOst/QuickNovel" />
+                    android:data="https://github.com/LustyFlix/QuickNovel" />
         </Preference>
         <Preference
                 android:title="@string/discord"

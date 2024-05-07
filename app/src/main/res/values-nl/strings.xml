@@ -23,8 +23,8 @@
 \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">Filler</string>
     <string name="duration_format" formatted="true">%d min</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">Afspelen met CloudStream</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Afspelen met Streamverse</string>
     <string name="title_home">Home</string>
     <string name="title_search">Zoeken</string>
     <string name="title_downloads">Downloads</string>
@@ -542,7 +542,7 @@
     <string name="delete_repository">Wis repository</string>
     <string name="subscription_deleted">Uitgeschreven bij %s</string>
     <string name="revert">Terugkeren</string>
-    <string name="blank_repo_message">CloudStream heeft standaard geen sites geïnstalleerd. U moet de sites uit repositories installeren.
+    <string name="blank_repo_message">Streamverse heeft standaard geen sites geïnstalleerd. U moet de sites uit repositories installeren.
 \n
 \nVanwege een hersenloze DMCA verwijdering door Sky UK Limited 🤮 kunnen we de repository site niet linken in de app.
 \n

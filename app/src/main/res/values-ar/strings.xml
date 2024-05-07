@@ -15,8 +15,8 @@
     <string name="new_update_format" formatted="true">يوجد تحديث جديد!
 \n%1$s -&gt; %2$s</string>
     <string name="duration_format" formatted="true">%d دقيقة</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">تشغيل بواسطة CloudStream</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">تشغيل بواسطة Streamverse</string>
     <string name="title_home">الرئيسية</string>
     <string name="title_search">البحث</string>
     <string name="title_downloads">التنزيلات</string>
@@ -279,7 +279,7 @@
     <string name="resize_zoom">تكبير</string>
     <string name="legal_notice">إخلاء مسؤولية</string>
     <string name="legal_notice_key" translatable="false">legal_notice_key</string>
-    <string name="legal_notice_text" translatable="false">Any legal issues regarding the content on this application should be taken up with the actual file hosts and providers themselves as we are not affiliated with them. In case of copyright infringement, please directly contact the responsible parties or the streaming websites. The app is purely for educational and personal use. CloudStream 3 does not host any content on the app, and has no control over what media is put up or taken down. CloudStream 3 functions like any other search engine, such as Google. CloudStream 3 does not host, upload or manage any videos, films or content. It simply crawls, aggregates and displayes links in a convenient, user-friendly interface. It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser. It is the responsibility of user to avoid any actions that might violate the laws governing his/her locality. Use CloudStream 3 at your own risk.</string>
+    <string name="legal_notice_text" translatable="false">Any legal issues regarding the content on this application should be taken up with the actual file hosts and providers themselves as we are not affiliated with them. In case of copyright infringement, please directly contact the responsible parties or the streaming websites. The app is purely for educational and personal use. Streamverse 3 does not host any content on the app, and has no control over what media is put up or taken down. Streamverse 3 functions like any other search engine, such as Google. Streamverse 3 does not host, upload or manage any videos, films or content. It simply crawls, aggregates and displayes links in a convenient, user-friendly interface. It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser. It is the responsibility of user to avoid any actions that might violate the laws governing his/her locality. Use Streamverse 3 at your own risk.</string>
     <string name="category_general">عام</string>
     <string name="random_button_settings">زر العشوائي</string>
     <string name="random_button_settings_desc">إظهار زر عشوائي على الصفحة الرئيسية والمكتبة</string>
@@ -429,7 +429,7 @@
     <string name="plugins_downloaded" formatted="true">تم تحميل: %d</string>
     <string name="plugins_disabled" formatted="true">مُعطل %d</string>
     <string name="plugins_not_downloaded" formatted="true">غير مُحمل: %d</string>
-    <string name="blank_repo_message">لا يحتوي CloudStream على مواقع مثبتة افتراضيًا. تحتاج إلى تثبيت المواقع من المستودعات.
+    <string name="blank_repo_message">لا يحتوي Streamverse على مواقع مثبتة افتراضيًا. تحتاج إلى تثبيت المواقع من المستودعات.
 \n
 \nانضم إلى ديسكورد أو ابحث عبر الإنترنت.</string>
     <string name="view_public_repositories_button">عرض مستودعات المجتمع</string>
@@ -632,7 +632,7 @@
     <string name="biometric_authentication_title">فتح سحابة البث</string>
     <string name="password_pin_authentication_title">مصادقة كلمة المرور/رقم التعريف الشخصي</string>
     <string name="biometric_prompt_description">تم إغلاق هذه الشاشة بسبب عدة محاولات فاشلة. الرجاء إعادة تشغيل التطبيق.</string>
-    <string name="biometric_warning">لقد تم الآن نسخ بيانات CloudStream احتياطيًا. على الرغم من أن احتمال حدوث ذلك منخفض جدًا، إلا أن جميع الأجهزة يمكن أن تتصرف بشكل مختلف. في الحالات النادرة، التي يتم فيها منعك من الوصول إلى التطبيق، قم بمسح بيانات التطبيق بالكامل واستعادتها من نسخة احتياطية. نحن نأسف جدًا لأي إزعاج ناتج عن هذا.</string>
+    <string name="biometric_warning">لقد تم الآن نسخ بيانات Streamverse احتياطيًا. على الرغم من أن احتمال حدوث ذلك منخفض جدًا، إلا أن جميع الأجهزة يمكن أن تتصرف بشكل مختلف. في الحالات النادرة، التي يتم فيها منعك من الوصول إلى التطبيق، قم بمسح بيانات التطبيق بالكامل واستعادتها من نسخة احتياطية. نحن نأسف جدًا لأي إزعاج ناتج عن هذا.</string>
     <string name="resume_remaining" formatted="true">%s
 \nمتبقي</string>
     <string name="favorite">المفضلة</string>
@@ -643,10 +643,10 @@
     <string name="clipboard_unknown_error">خطأ في عملية النسخ، برجاء نسخ ال logcat و ارساله الى مسؤولين دعم التطبيق.</string>
     <string name="battery_dialog_title">تعطيل تحسين البطارية</string>
     <string name="app_unrestricted_toast">تم ضبط استخدام بطارية التطبيق بالفعل على غير مقيد</string>
-    <string name="app_info_intent_error">غير قادر على فتح معلومات تطبيق CloudStream.</string>
+    <string name="app_info_intent_error">غير قادر على فتح معلومات تطبيق Streamverse.</string>
     <string name="audio_book_singular">كتاب صوتي</string>
     <string name="ok">حسناً</string>
-    <string name="battery_dialog_message">لضمان عدم انقطاع التنزيلات والإشعارات للبرامج التلفزيونية المشتركة، يحتاج CloudStream إلى إذن للتشغيل في الخلفية. بالضغط على موافق، سيتم توجيهك إلى معلومات التطبيق. هناك، انتقل إلى استخدام بطارية التطبيق
+    <string name="battery_dialog_message">لضمان عدم انقطاع التنزيلات والإشعارات للبرامج التلفزيونية المشتركة، يحتاج Streamverse إلى إذن للتشغيل في الخلفية. بالضغط على موافق، سيتم توجيهك إلى معلومات التطبيق. هناك، انتقل إلى استخدام بطارية التطبيق
 \nواضبط استخدام البطارية على غير مقيد. يرجى ملاحظة أن هذا الإذن لا يعني أن CS3 سوف يستنزف البطارية. ولن يعمل إلا في الخلفية عند الضرورة، كما هو الحال عند تلقي الإشعارات أو تنزيل مقاطع الفيديو من الملحقات الرسمية. إذا اخترت الإلغاء، فيمكنك ضبط هذا الإعداد لاحقًا في الإعدادات العامة.</string>
     <string name="music_singlar">موسيقى</string>
     <string name="custom_media_singluar">الوسائط</string>

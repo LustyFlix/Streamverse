@@ -1,0 +1,14 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml:2:1-13
+INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml:2:1-13
+	package
+		INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml
+INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Streamverse\library\src\androidMain\AndroidManifest.xml

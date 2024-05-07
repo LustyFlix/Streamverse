@@ -21,8 +21,8 @@
     <string name="new_update_format" formatted="true">Nova atualização encontrada!
 \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">Preenchimento</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">Assistir com o CloudStream</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Assistir com o Streamverse</string>
     <string name="title_home">Início</string>
     <string name="title_search">Pesquisar</string>
     <string name="title_downloads">Downloads</string>
@@ -373,7 +373,7 @@
     <string name="plugins_downloaded" formatted="true">Transferido: %d</string>
     <string name="plugins_disabled" formatted="true">Desativado: %d</string>
     <string name="plugins_not_downloaded" formatted="true">Não transferido: %d</string>
-    <string name="blank_repo_message">O CloudStream não tem sites instalados por padrão. É necessário instalar os sites a partir de repositórios.
+    <string name="blank_repo_message">O Streamverse não tem sites instalados por padrão. É necessário instalar os sites a partir de repositórios.
 \n
 \nJunte-se ao nosso Discord ou pesquise online.</string>
     <string name="view_public_repositories_button">Ver repositórios da comunidade</string>
@@ -601,18 +601,18 @@
 \nrestante</string>
     <string name="clipboard_permission_error">Erro ao aceder à área de transferência, tente novamente.</string>
     <string name="clipboard_unknown_error">Erro ao copiar, copie o logcat e contacte o suporte da aplicação.</string>
-    <string name="biometric_authentication_title">Desbloquear o CloudStream</string>
+    <string name="biometric_authentication_title">Desbloquear o Streamverse</string>
     <string name="password_pin_authentication_title">Autenticação por palavra-passe/PIN</string>
     <string name="biometric_unsupported">A autenticação biométrica não é suportada neste dispositivo</string>
     <string name="biometric_setting_summary">Desbloqueie a aplicação com impressão digital, ID facial, PIN, padrão e palavra-passe.</string>
     <string name="biometric_prompt_description">Este ecrã foi encerrado devido a várias tentativas falhadas. Reinicie a aplicação.</string>
-    <string name="biometric_warning">Os dados do seu CloudStream já foram copiados. Embora a possibilidade de isto acontecer ser muito baixa, todos os dispositivos podem comportar-se de forma diferente. No caso raro de ficar impedido de aceder à aplicação, limpe completamente os dados da aplicação e restaure a partir de uma cópia de segurança. Lamentamos qualquer incómodo causado por esta situação.</string>
+    <string name="biometric_warning">Os dados do seu Streamverse já foram copiados. Embora a possibilidade de isto acontecer ser muito baixa, todos os dispositivos podem comportar-se de forma diferente. No caso raro de ficar impedido de aceder à aplicação, limpe completamente os dados da aplicação e restaure a partir de uma cópia de segurança. Lamentamos qualquer incómodo causado por esta situação.</string>
     <string name="ok">OK</string>
     <string name="app_unrestricted_toast">A utilização da bateria da aplicação já está definida como sem restrições</string>
-    <string name="app_info_intent_error">Não é possível abrir a informação da aplicação CloudStream.</string>
+    <string name="app_info_intent_error">Não é possível abrir a informação da aplicação Streamverse.</string>
     <string name="music_singlar">Música</string>
     <string name="audio_book_singular">Livro Aúdio</string>
     <string name="custom_media_singluar">Multimédia</string>
     <string name="battery_dialog_title">Desativar a otimização da bateria</string>
-    <string name="battery_dialog_message">Para garantir descarregamentos ininterruptos e notificações de programas de TV subscritos, o CloudStream precisa de permissão para ser executado em segundo plano. Ao premir OK, será direcionado para informações da aplicação. Aí, desloque-se para utilização da bateria da aplicação e defina a utilização da bateria para sem restrições. Tenha em atenção que esta permissão não significa que o CS3 irá esgotar a sua bateria. Este só funcionará em segundo plano quando necessário, como ao receber notificações ou baixar vídeos de extensões oficiais. Se optar por cancelar, pode ajustar esta definição mais tarde em definições gerais.</string>
+    <string name="battery_dialog_message">Para garantir descarregamentos ininterruptos e notificações de programas de TV subscritos, o Streamverse precisa de permissão para ser executado em segundo plano. Ao premir OK, será direcionado para informações da aplicação. Aí, desloque-se para utilização da bateria da aplicação e defina a utilização da bateria para sem restrições. Tenha em atenção que esta permissão não significa que o CS3 irá esgotar a sua bateria. Este só funcionará em segundo plano quando necessário, como ao receber notificações ou baixar vídeos de extensões oficiais. Se optar por cancelar, pode ajustar esta definição mais tarde em definições gerais.</string>
 </resources>

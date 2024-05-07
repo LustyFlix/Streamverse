@@ -90,9 +90,9 @@
     <string name="swipe_to_change_settings_des">Проведіть вгору або вниз з лівого або правого боку, щоб змінити яскравість чи гучність</string>
     <string name="autoplay_next_settings_des">Відтворює наступний епізод після закінчення поточного</string>
     <string name="title_home">Головна</string>
-    <string name="app_name">CloudStream</string>
+    <string name="app_name">Streamverse</string>
     <string name="filler" formatted="true">Філер</string>
-    <string name="play_with_app_name">Програти в CloudStream</string>
+    <string name="play_with_app_name">Програти в Streamverse</string>
     <string name="stream">Трансляція</string>
     <string name="type_watching">Переглядаю</string>
     <string name="result_share">Поділитися</string>
@@ -425,7 +425,7 @@
     <string name="plugins_disabled" formatted="true">Вимкнено: %d</string>
     <string name="plugins_not_downloaded" formatted="true">Не завантажено: %d</string>
     <string name="plugins_updated" formatted="true">Оновлено %d плагіни</string>
-    <string name="blank_repo_message">За замовчуванням у CloudStream не встановлено жодного сайту. Вам потрібно встановити сайти з репозиторіїв.
+    <string name="blank_repo_message">За замовчуванням у Streamverse не встановлено жодного сайту. Вам потрібно встановити сайти з репозиторіїв.
 \n
 \nПриєднуйтесь до нашого Discord або шукайте в Інтернеті.</string>
     <string name="view_public_repositories_button">Переглянути репозиторії спільноти</string>
@@ -595,10 +595,10 @@
     <string name="test_extensions_summary">Цей тест призначений тільки для розробників й не виправляє та не заперечує роботу жодного розширення.</string>
     <string name="subscribe_tooltip">Сповіщення про новий епізод</string>
     <string name="password_pin_authentication_title">Автентифікація паролем/PIN-кодом</string>
-    <string name="biometric_authentication_title">Розблокувати CloudStream</string>
+    <string name="biometric_authentication_title">Розблокувати Streamverse</string>
     <string name="biometric_setting">Блокування за допомогою біометрії</string>
     <string name="biometric_setting_summary">Розблокуйте застосунок за допомогою відбитка пальця, Face ID, PIN-коду, графічного ключа та пароля.</string>
-    <string name="biometric_warning">Резервне копіювання даних CloudStream виконано. Хоча ймовірність цього дуже низька, всі пристрої можуть вести себе по-різному. У рідкісних випадках, коли ви не можете отримати доступ до застосунку, повністю очистіть дані застосунку та відновіть їх з резервної копії. Просимо вибачення за незручності, пов \'язані з цим.</string>
+    <string name="biometric_warning">Резервне копіювання даних Streamverse виконано. Хоча ймовірність цього дуже низька, всі пристрої можуть вести себе по-різному. У рідкісних випадках, коли ви не можете отримати доступ до застосунку, повністю очистіть дані застосунку та відновіть їх з резервної копії. Просимо вибачення за незручності, пов \'язані з цим.</string>
     <string name="biometric_unsupported">Біометрична автентифікація не підтримується на цьому пристрої</string>
     <string name="biometric_prompt_description">Цей екран було закрито через кілька невдалих спроб. Будь ласка, перезапустіть застосунок.</string>
     <string name="resume_remaining" formatted="true">%s
@@ -611,9 +611,9 @@
     <string name="clipboard_permission_error">Помилка доступу до буфера обміну, спробуйте ще раз.</string>
     <string name="ok">Добре</string>
     <string name="battery_dialog_title">Вимкнути оптимізацію батареї</string>
-    <string name="battery_dialog_message">Щоб забезпечити безперебійне завантаження та повідомлення про підписані телепередачі, CloudStream потребує дозволу на роботу у фоновому режимі. Натиснувши \"Добре\", вас буде перенаправлено до інформації про застосунок. Там прокрутіть до \"Споживання батареї застосунком\" й встановіть використання батареї на \"Без обмежень\". Зверніть увагу, що цей дозвіл не означає, що CS3 розряджатиме вашу батарею. Він працюватиме у фоновому режимі лише за необхідності, наприклад, під час отримання повідомлень або завантаження відео з офіційних розширень. Якщо ви вирішите скасувати дозвіл, ви зможете змінити це налаштування пізніше в загальних налаштуваннях.</string>
+    <string name="battery_dialog_message">Щоб забезпечити безперебійне завантаження та повідомлення про підписані телепередачі, Streamverse потребує дозволу на роботу у фоновому режимі. Натиснувши \"Добре\", вас буде перенаправлено до інформації про застосунок. Там прокрутіть до \"Споживання батареї застосунком\" й встановіть використання батареї на \"Без обмежень\". Зверніть увагу, що цей дозвіл не означає, що CS3 розряджатиме вашу батарею. Він працюватиме у фоновому режимі лише за необхідності, наприклад, під час отримання повідомлень або завантаження відео з офіційних розширень. Якщо ви вирішите скасувати дозвіл, ви зможете змінити це налаштування пізніше в загальних налаштуваннях.</string>
     <string name="app_unrestricted_toast">Споживання батареї застосунком вже налаштовано на без обмежень</string>
-    <string name="app_info_intent_error">Не вдається відкрити інформацію про застосунок CloudStream.</string>
+    <string name="app_info_intent_error">Не вдається відкрити інформацію про застосунок Streamverse.</string>
     <string name="audio_book_singular">Аудіо книга</string>
     <string name="music_singlar">Музика</string>
     <string name="custom_media_singluar">Медіа</string>

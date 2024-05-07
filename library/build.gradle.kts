@@ -33,7 +33,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
 }
 
 buildkonfig {
-    packageName = "com.lagradost.api"
+    packageName = "com.lustyflix.api"
     exposeObjectWithName = "BuildConfig"
 
     defaultConfigs {
@@ -51,8 +51,8 @@ android {
         targetSdk = 33
     }
 
-    // If this is the same com.lagradost.cloudstream3.R stops working
-    namespace = "com.lagradost.api"
+    // If this is the same com.lustyflix.streamverse.R stops working
+    namespace = "com.lustyflix.api"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -62,7 +62,7 @@ android {
 publishing {
     publications {
         withType<MavenPublication> {
-            groupId = "com.lagradost.api"
+            groupId = "com.lustyflix.api"
         }
     }
 }

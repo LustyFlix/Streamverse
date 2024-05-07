@@ -353,7 +353,7 @@
                                 android:textStyle="bold"
                                 tools:text="The Perfect Run The Perfect Run" />
 
-                            <com.lagradost.cloudstream3.widget.FlowLayout
+                            <com.lustyflix.streamverse.widget.FlowLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:itemSpacing="10dp">
@@ -394,7 +394,7 @@
                                     android:id="@+id/result_meta_duration"
                                     style="@style/ResultInfoText"
                                     tools:text="121min" />
-                            </com.lagradost.cloudstream3.widget.FlowLayout>
+                            </com.lustyflix.streamverse.widget.FlowLayout>
 
                             <!--
                             This has half margin and half padding to make TV focus on description look better.
@@ -527,7 +527,7 @@
                         style="@style/ChipParent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
-                    <!--<com.lagradost.cloudstream3.widget.FlowLayout
+                    <!--<com.lustyflix.streamverse.widget.FlowLayout
                             android:id="@+id/result_tag"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />-->
@@ -609,7 +609,7 @@
                                     android:focusable="true"
                                     android:layout_width="match_parent" />-->
 
-                            <com.lagradost.cloudstream3.ui.download.button.DownloadButton
+                            <com.lustyflix.streamverse.ui.download.button.DownloadButton
                                 android:id="@+id/download_button"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"

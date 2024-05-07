@@ -121,7 +121,7 @@
                     tools:text="15 Apr 2024" />
             </LinearLayout>
 
-            <com.lagradost.cloudstream3.ui.download.button.PieFetchButton
+            <com.lustyflix.streamverse.ui.download.button.PieFetchButton
                 android:id="@+id/download_button"
                 android:layout_width="@dimen/download_size"
                 android:layout_height="@dimen/download_size"

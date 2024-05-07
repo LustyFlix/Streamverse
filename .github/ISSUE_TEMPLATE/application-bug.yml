@@ -1,5 +1,5 @@
 name: 🐞 Application Issue Report
-description: Report a issue in CloudStream
+description: Report a issue in Streamverse
 labels: [bug]
 body:
 
@@ -37,11 +37,11 @@ body:
       required: true
 
   - type: input
-    id: cloudstream-version
+    id: streamverse-version
     attributes:
-      label: Cloudstream version and commit hash
+      label: Streamverse version and commit hash
       description: |
-        You can find your Cloudstream version in **Settings**. Commit hash is the 7 character string next to the version.
+        You can find your Streamverse version in **Settings**. Commit hash is the 7 character string next to the version.
       placeholder: |
         Example: "2.8.16 a49f466"
     validations:
@@ -84,7 +84,7 @@ body:
           required: true
         - label: I have written a short but informative title.
           required: true
-        - label: I have updated the app to pre-release version **[Latest](https://github.com/recloudstream/cloudstream/releases)**.
+        - label: I have updated the app to pre-release version **[Latest](https://github.com/lustyflix/streamverse/releases)**.
           required: true
         - label: If related to a provider, I have checked the site and it works, but not the app. 
           required: true

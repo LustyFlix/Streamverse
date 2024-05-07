@@ -1,4 +1,4 @@
-# CloudStream
+# Streamverse
 
 **⚠️ Warning: By default this app doesn't provide any video sources, you have to install extensions in order to add functionality to the app.**
 
@@ -14,6 +14,6 @@
 + Extension system for personal customization
 
 ### Supported languages:
-<a href="https://hosted.weblate.org/engage/cloudstream/">
-  <img src="https://hosted.weblate.org/widgets/cloudstream/-/app/multi-auto.svg" alt="Translation status" />
+<a href="https://hosted.weblate.org/engage/streamverse/">
+  <img src="https://hosted.weblate.org/widgets/streamverse/-/app/multi-auto.svg" alt="Translation status" />
 </a>

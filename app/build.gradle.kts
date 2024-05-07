@@ -57,7 +57,7 @@ android {
     buildToolsVersion = "34.0.0"
 
     defaultConfig {
-        applicationId = "com.lagradost.cloudstream3"
+        applicationId = "com.lustyflix.streamverse"
         minSdk = 21
         targetSdk = 33 /* Android 14 is Fu*ked
         ^ https://developer.android.com/about/versions/14/behavior-changes-14#safer-dynamic-code-loading*/
@@ -147,7 +147,7 @@ android {
         buildConfig = true
     }
 
-    namespace = "com.lagradost.cloudstream3"
+    namespace = "com.lustyflix.streamverse"
 }
 
 repositories {
@@ -201,7 +201,7 @@ dependencies {
 
     // PlayBack
     implementation("com.jaredrummler:colorpicker:1.1.0") // Subtitle Color Picker
-    implementation("com.github.recloudstream:media-ffmpeg:1.1.0") // Custom FF-MPEG Lib for Audio Codecs
+    implementation("com.github.lustyflix:media-ffmpeg:1.1.0") // Custom FF-MPEG Lib for Audio Codecs
     implementation("com.github.TeamNewPipe.NewPipeExtractor:NewPipeExtractor:6dc25f7b97") /* For Trailers
     ^ Update to Latest Commits if Trailers Misbehave, github.com/TeamNewPipe/NewPipeExtractor/commits/dev */
     implementation("com.github.albfernandez:juniversalchardet:2.4.0") // Subtitle Decoding
@@ -223,7 +223,7 @@ dependencies {
     ^ Don't Bump RhinoJS to 1.7.14,`NoClassDefFoundError` Occurs and Trailers won't play (even with Desugaring)
      NewPipeExtractor Issue */
     implementation("me.xdrop:fuzzywuzzy:1.4.0") // Library/Ext Searching with Levenshtein Distance
-    implementation("com.github.LagradOst:SafeFile:0.0.6") // To Prevent the URI File Fu*kery
+    implementation("com.github.LustyFlix:SafeFile:0.0.6") // To Prevent the URI File Fu*kery
     implementation("org.conscrypt:conscrypt-android:2.5.2") // To Fix SSL Fu*kery on Android 9
     implementation("com.uwetrottmann.tmdb2:tmdb-java:2.10.0") // TMDB API v3 Wrapper Made with RetroFit
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
@@ -276,7 +276,7 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.withType<DokkaTask>().configureEach {
-    moduleName.set("Cloudstream")
+    moduleName.set("Streamverse")
     dokkaSourceSets {
         named("main") {
             sourceLink {
@@ -284,7 +284,7 @@ tasks.withType<DokkaTask>().configureEach {
                 localDirectory.set(file("src/main/java"))
 
                 // URL showing where the source code can be accessed through the web browser
-                remoteUrl.set(URL("https://github.com/recloudstream/cloudstream/tree/master/app/src/main/java"))
+                remoteUrl.set(URL("https://github.com/lustyflix/streamverse/tree/master/app/src/main/java"))
 
                 // Suffix which is used to append the line number to the URL. Use #L for GitHub
                 remoteLineSuffix.set("#L")

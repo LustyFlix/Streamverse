@@ -17,8 +17,8 @@
     <string name="next_episode_time_day_format" formatted="true">%1$d دن %2$d گھنٹے %3$d منٹ</string>
     <string name="next_episode_time_hour_format" formatted="true">%1$d گھنٹے %2$d منٹ</string>
     <string name="next_episode_time_min_format" formatted="true">%d منٹ</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">CloudStream کے ساتھ چلائیں</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Streamverse کے ساتھ چلائیں</string>
     <string name="title_home">ہوم</string>
     <string name="title_search">تلاش کریں</string>
     <string name="title_downloads">ڈاؤن لوڈ</string>
@@ -517,7 +517,7 @@
     <string name="subtitles_remove_captions">سب ٹائٹلز سے بند کیپشنز کو ہٹا دیں</string>
     <string name="app_layout_subtext">اپنے آلے کے مطابق ایپ کی شکل تبدیل کریں</string>
     <string name="next">اگلے</string>
-    <string name="blank_repo_message">CloudStream کے ساتھ پہلے سے کوئی ویب سائٹس انسٹال نہیں ہیں۔ آپ کو مخزنوں سے ویب سائٹس انسٹال کرنی ہوں گی۔
+    <string name="blank_repo_message">Streamverse کے ساتھ پہلے سے کوئی ویب سائٹس انسٹال نہیں ہیں۔ آپ کو مخزنوں سے ویب سائٹس انسٹال کرنی ہوں گی۔
 \n
 \nSky UK Limited کی طرف سے DMCA کے تعلیم نامے کی بنا پر 🤮، ہم ایپ کے اندر مخزن سائٹ کی مستقیم لنک فراہم نہیں کر سکتے۔
 \n

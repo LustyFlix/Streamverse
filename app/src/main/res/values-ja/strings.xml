@@ -53,8 +53,8 @@
     <string name="result_tags">ジャンル</string>
     <string name="play_movie_button">映画を再生</string>
     <string name="pick_subtitle">字幕</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">CloudStreamで再生</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Streamverseで再生</string>
     <string name="browser">ブラウザ</string>
     <string name="type_completed">完成</string>
     <string name="type_dropped">放置</string>
@@ -192,7 +192,7 @@
     <string name="subtitle_offset">字幕を同期</string>
     <string name="add_repository">リポジトリを追加</string>
     <string name="repository_name_hint">リポジトリ名</string>
-    <string name="blank_repo_message">CloudStreamはデフォルトでサイトがインストールされていません。リポジトリからサイトをインストールする必要があります。
+    <string name="blank_repo_message">Streamverseはデフォルトでサイトがインストールされていません。リポジトリからサイトをインストールする必要があります。
 \n
 \nSky UK Limitedによる無脳なDMCAテイクダウンのため🤮、アプリ内でリポジトリサイトをリンクすることができません。
 \n

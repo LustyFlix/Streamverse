@@ -115,8 +115,8 @@
     <string name="cast_format" formatted="true">Elenco %s</string>
     <string name="filler" formatted="true">Relleno</string>
     <string name="duration_format" formatted="true">%d min</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">Reproducir con Cloudstream</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">Reproducir con Streamverse</string>
     <string name="title_home">Inicio</string>
     <string name="title_search">Buscar</string>
     <string name="title_downloads">Descargas</string>
@@ -286,7 +286,7 @@
     <string name="extension_language">Idioma</string>
     <string name="apk_installer_legacy">Legacy (método antiguo)</string>
     <string name="apk_installer_package_installer">Instalador de paquetes</string>
-    <string name="blank_repo_message">CloudStream no tiene sitios instalados por defecto. Necesitas instalar los sitios desde los repositorios.
+    <string name="blank_repo_message">Streamverse no tiene sitios instalados por defecto. Necesitas instalar los sitios desde los repositorios.
 \n
 \nÚnase a nuestro Discord o busque en línea.</string>
     <string name="download_all_plugins_from_repo">¿Descargar todos los plugins de este repositorio?</string>
@@ -597,10 +597,10 @@
     <string name="biometric_setting">Bloquear biometricamente</string>
     <string name="password_pin_authentication_title">Autenticación mediante contraseña/PIN</string>
     <string name="biometric_setting_summary">Desbloquea la aplicación con huella dactilar, Face ID, PIN, patrón y contraseña.</string>
-    <string name="biometric_authentication_title">Desbloquear CloudStream</string>
+    <string name="biometric_authentication_title">Desbloquear Streamverse</string>
     <string name="biometric_unsupported">La autenticación biométrica no es compatible con este dispositivo</string>
     <string name="biometric_prompt_description">Esta pantalla se cerró después de algunos intentos fallidos. Reinicie la aplicación.</string>
-    <string name="biometric_warning">Ahora se ha realizado una copia de seguridad de sus datos de CloudStream. Aunque la posibilidad de que esto ocurra es muy baja, todos los dispositivos pueden comportarse de forma diferente. En el raro caso de que no puedas acceder a la aplicación, borra completamente los datos de la aplicación y restaura desde una copia de seguridad. Sentimos mucho las molestias que esto pueda ocasionarte.</string>
+    <string name="biometric_warning">Ahora se ha realizado una copia de seguridad de sus datos de Streamverse. Aunque la posibilidad de que esto ocurra es muy baja, todos los dispositivos pueden comportarse de forma diferente. En el raro caso de que no puedas acceder a la aplicación, borra completamente los datos de la aplicación y restaura desde una copia de seguridad. Sentimos mucho las molestias que esto pueda ocasionarte.</string>
     <string name="favorite">Favorito</string>
     <string name="unfavorite">No favorito</string>
     <string name="resume_remaining" formatted="true">%s
@@ -613,8 +613,8 @@
     <string name="battery_dialog_title">Desactivar optimización de batería</string>
     <string name="music_singlar">Música</string>
     <string name="app_unrestricted_toast">El uso de la batería de la aplicación está configurado sin restricciones</string>
-    <string name="app_info_intent_error">No se puede abrir la información de la aplicación CloudStream.</string>
+    <string name="app_info_intent_error">No se puede abrir la información de la aplicación Streamverse.</string>
     <string name="custom_media_singluar">Media</string>
     <string name="audio_book_singular">Audiolibro</string>
-    <string name="battery_dialog_message">Para garantizar descargas y notificaciones ininterrumpidas para programas de televisión suscritos, CloudStream necesita permiso para ejecutarse en segundo plano. Al presionar OK, se le dirigirá a información de la aplicación. Allí, desplácese hasta Uso de la batería de la aplicación y establezca el uso de la batería en Sin restricciones. Tenga en cuenta que este permiso no significa que CS3 agotará su batería. Solo funcionará en segundo plano cuando sea necesario, como cuando reciba notificaciones o descargue videos de extensiones oficiales. Si decide cancelar, puede ajustar esta configuración más adelante en los ajustes generales.</string>
+    <string name="battery_dialog_message">Para garantizar descargas y notificaciones ininterrumpidas para programas de televisión suscritos, Streamverse necesita permiso para ejecutarse en segundo plano. Al presionar OK, se le dirigirá a información de la aplicación. Allí, desplácese hasta Uso de la batería de la aplicación y establezca el uso de la batería en Sin restricciones. Tenga en cuenta que este permiso no significa que CS3 agotará su batería. Solo funcionará en segundo plano cuando sea necesario, como cuando reciba notificaciones o descargue videos de extensiones oficiales. Si decide cancelar, puede ajustar esta configuración más adelante en los ajustes generales.</string>
 </resources>

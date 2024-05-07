@@ -1,0 +1,105 @@
+package com.lustyflix.streamverse.extractors
+
+import com.fasterxml.jackson.annotation.JsonProperty
+import com.lustyflix.streamverse.*
+import com.lustyflix.streamverse.extractors.helper.*
+import com.lustyflix.streamverse.extractors.helper.AesHelper.cryptoAESHandler
+import com.lustyflix.streamverse.utils.AppUtils
+import com.lustyflix.streamverse.utils.ExtractorApi
+import com.lustyflix.streamverse.utils.ExtractorLink
+import com.lustyflix.streamverse.utils.M3u8Helper
+
+class Moviesapi : Chillx() {
+    override val name = "Moviesapi"
+    override val mainUrl = "https://w1.moviesapi.club"
+}
+
+class Bestx : Chillx() {
+    override val name = "Bestx"
+    override val mainUrl = "https://bestx.stream"
+}
+
+class Watchx : Chillx() {
+    override val name = "Watchx"
+    override val mainUrl = "https://watchx.top"
+}
+
+open class Chillx : ExtractorApi() {
+    override val name = "Chillx"
+    override val mainUrl = "https://chillx.top"
+    override val requiresReferer = true
+    private var key: String? = null
+
+    override suspend fun getUrl(
+        url: String,
+        referer: String?,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ) {
+        val master = Regex("\\s*=\\s*'([^']+)").find(
+            app.get(
+                url,
+                referer = referer ?: "",
+                headers = mapOf(
+                    "Accept" to "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                    "Accept-Language" to "en-US,en;q=0.5",
+                )
+            ).text
+        )?.groupValues?.get(1)
+        val decrypt = cryptoAESHandler(master ?: return, getKey().toByteArray(), false)?.replace("\\", "") ?: throw ErrorLoadingException("failed to decrypt")
+
+        val source = Regex(""""?file"?:\s*"([^"]+)""").find(decrypt)?.groupValues?.get(1)
+
+        val subtitles = Regex("""subtitle"?:\s*"([^"]+)""").find(decrypt)?.groupValues?.get(1)
+        val subtitlePattern = """\[(.*?)\](https?://[^\s,]+)""".toRegex()
+        val matches = subtitlePattern.findAll(subtitles ?: "")
+        val languageUrlPairs = matches.map { matchResult ->
+            val (language, url) = matchResult.destructured
+            decodeUnicodeEscape(language) to url
+        }.toList()
+
+        languageUrlPairs.forEach{ (name, file) ->
+            subtitleCallback.invoke(
+                SubtitleFile(
+                    name,
+                    file
+                )
+            )
+        }
+        // required
+        val headers = mapOf(
+            "Accept" to "*/*",
+            "Connection" to "keep-alive",
+            "Sec-Fetch-Dest" to "empty",
+            "Sec-Fetch-Mode" to "cors",
+            "Sec-Fetch-Site" to "cross-site",
+            "Origin" to mainUrl,
+        )
+
+        M3u8Helper.generateM3u8(
+            name,
+            source ?: return,
+            "$mainUrl/",
+            headers = headers
+        ).forEach(callback)
+    }
+    
+    private fun decodeUnicodeEscape(input: String): String {
+        val regex = Regex("u([0-9a-fA-F]{4})")
+        return regex.replace(input) {
+            it.groupValues[1].toInt(16).toChar().toString()
+        }
+    }
+    
+    suspend fun getKey() = key ?: fetchKey().also { key = it }
+
+    private suspend fun fetchKey(): String {
+        return app.get("https://raw.githubusercontent.com/Sofie99/Resources/main/chillix_key.json").parsed()
+    }
+
+    data class Tracks(
+        @JsonProperty("file") val file: String? = null,
+        @JsonProperty("label") val label: String? = null,
+        @JsonProperty("kind") val kind: String? = null,
+    )
+}

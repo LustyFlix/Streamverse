@@ -35,8 +35,8 @@
 \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">填充</string>
     <string name="duration_format" formatted="true">%d 分鐘</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">使用 CloudStream 播放</string>
+    <string name="app_name">Streamverse</string>
+    <string name="play_with_app_name">使用 Streamverse 播放</string>
     <string name="title_home">主畫面</string>
     <string name="title_search">搜尋</string>
     <string name="title_downloads">下載</string>
@@ -304,7 +304,7 @@
     <string name="resize_zoom">縮放</string>
     <string name="legal_notice">免責聲明</string>
     <string name="legal_notice_key" translatable="false">legal_notice_key</string>
-    <string name="legal_notice_text" translatable="false">Any legal issues regarding the content on this application should be taken up with the actual file hosts and providers themselves as we are not affiliated with them. In case of copyright infringement, please directly contact the responsible parties or the streaming websites. The app is purely for educational and personal use. CloudStream 3 does not host any content on the app, and has no control over what media is put up or taken down. CloudStream 3 functions like any other search engine, such as Google. CloudStream 3 does not host, upload or manage any videos, films or content. It simply crawls, aggregates and displayes links in a convenient, user-friendly interface. It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser. It is the responsibility of user to avoid any actions that might violate the laws governing his/her locality. Use CloudStream 3 at your own risk.</string>
+    <string name="legal_notice_text" translatable="false">Any legal issues regarding the content on this application should be taken up with the actual file hosts and providers themselves as we are not affiliated with them. In case of copyright infringement, please directly contact the responsible parties or the streaming websites. The app is purely for educational and personal use. Streamverse 3 does not host any content on the app, and has no control over what media is put up or taken down. Streamverse 3 functions like any other search engine, such as Google. Streamverse 3 does not host, upload or manage any videos, films or content. It simply crawls, aggregates and displayes links in a convenient, user-friendly interface. It merely scrapes 3rd-party websites that are publicly accessable via any regular web browser. It is the responsibility of user to avoid any actions that might violate the laws governing his/her locality. Use Streamverse 3 at your own risk.</string>
     <string name="category_general">通用</string>
     <string name="random_button_settings">隨機按鈕</string>
     <string name="random_button_settings_desc">在主畫面中顯示隨機按鈕</string>
@@ -455,7 +455,7 @@
     <string name="plugins_disabled" formatted="true">已停用：%d</string>
     <string name="plugins_not_downloaded" formatted="true">未下載：%d</string>
     <string name="plugins_updated" formatted="true">已更新 %d 外掛程式</string>
-    <string name="blank_repo_message">CloudStream 預設沒有安裝任何片源。您需要從資源庫安裝站點。
+    <string name="blank_repo_message">Streamverse 預設沒有安裝任何片源。您需要從資源庫安裝站點。
 \n
 \n由於 Sky UK Limited 的無腦 DMCA 刪除🤮，我們無法在應用程式中連結資源庫站點。
 \n
